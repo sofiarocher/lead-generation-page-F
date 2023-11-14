@@ -1,0 +1,9 @@
+.gallery_container {
+    background-color: #fff;
+    height: 250px;
+    text-align: center;
+}
+
+.gallery_container h2 {
+    padding-top: 100px;
+}
