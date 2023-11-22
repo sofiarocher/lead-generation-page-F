@@ -7,4 +7,9 @@ export default defineConfig({
   build: {
     target: 'esnext',
   },
+  server: {
+    rewrite: [
+      { from: /\.jsx$/, to: '.js' }
+    ]
+  }
 })
