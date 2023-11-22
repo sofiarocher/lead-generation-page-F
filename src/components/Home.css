@@ -62,7 +62,9 @@
     }
 
     .title_desc {
-        font-size: 28px;
+        font-size: 24px;
+        max-width: 410px;
+        margin: auto;
     }
 
     .vid_container {
