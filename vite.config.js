@@ -13,6 +13,9 @@ export default defineConfig({
     fs: {
       strict: true,
     },
+    mimeTypes: {
+      'text/jsx': 'js',
+    },
   },
   resolve: {
     dedupe: ['react', 'react-dom'],
