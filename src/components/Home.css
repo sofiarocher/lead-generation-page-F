@@ -94,9 +94,9 @@
     }
 
     .title_desc {
-        font-size: 20px;
+        font-size: 16px;
         padding-bottom: 16px;
-        width: 340px;
+        width: 300px;
     }
     
     .title_p {
@@ -104,8 +104,8 @@
     }
 
     iframe {
-        width: 290px;
-        height: 250px;
+        width: 270px;
+        height: 200px;
     }
 
     .vid_container {
@@ -113,11 +113,11 @@
     }
 
     .home_btn {
-        width: 50%;
-        margin: 1rem 8rem;
+        width: 60%;
+        padding: 4px;
     }
 
     .home_btn a {
-        font-size: 13px;
+        font-size: 10px;
     }
 }
