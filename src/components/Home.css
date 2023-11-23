@@ -95,7 +95,6 @@
 
     .title_desc {
         font-size: 16px;
-        padding-bottom: 16px;
         width: 300px;
     }
     
@@ -105,7 +104,7 @@
 
     iframe {
         width: 270px;
-        height: 200px;
+        height: 250px;
     }
 
     .vid_container {
@@ -114,10 +113,10 @@
 
     .home_btn {
         width: 60%;
-        padding: 4px;
+        padding: 8px;
     }
 
     .home_btn a {
-        font-size: 10px;
+        font-size: 12px;
     }
 }

@@ -90,19 +90,19 @@
     }
 
     .conc_li {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .conc_p {
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .conc_btn {
-        width: 80%;
-        padding: 6px;
+        width: 90%;
+        padding: 8px;
     }
 
     .conc_btn a {
-        font-size: 10px;
+        font-size: 12px;
     }
 }
