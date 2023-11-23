@@ -28,7 +28,7 @@ function Servicio() {
                 <br /><br />
                 De esta manera <span className="serv-span">solo necesitaras dedicarle como máximo 2hs por semana,</span> nosotros nos encargamos del resto!
             </p>
-            <button className='home_btn'><a target='_blank' href="https://calendly.com/mediagrowthhub/30min">AGENDÁ UNA LLAMADA AHORA!</a></button>
+            <button className='serv_btn'><a target='_blank' href="https://calendly.com/mediagrowthhub/30min">AGENDÁ UNA LLAMADA AHORA!</a></button>
         </div>
     </div>
   )
