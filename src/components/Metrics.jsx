@@ -1,4 +1,3 @@
-import React from 'react'
 import "./Metrics.css"
 import metric1 from "../assets/metric1.jpg"
 import metric2 from "../assets/metric2.jpg"

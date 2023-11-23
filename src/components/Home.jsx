@@ -1,4 +1,3 @@
-import React from 'react'
 import { useState } from 'react'
 import "./Home.css"
 import Metrics from './Metrics.jsx'
