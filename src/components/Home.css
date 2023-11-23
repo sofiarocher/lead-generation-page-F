@@ -64,6 +64,7 @@
         font-size: 24px;
         max-width: 410px;
         margin: auto;
+        padding-bottom: 16px;
     }
 
     .vid_container {
@@ -90,13 +91,10 @@
         padding-top: 2rem;
     }
 
-    .title_container {
-        width: 80%;
-        text-align: center;
-    }
-
     .title_desc {
         font-size: 20px;
+        padding-bottom: 16px;
+        width: 340px;
     }
     
     .title_p {
