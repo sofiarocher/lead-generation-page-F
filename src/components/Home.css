@@ -90,6 +90,7 @@
         align-items: center;
         margin: 0 1rem;
         padding-top: 2rem;
+        justify-content: center;
     }
 
     .title_desc {
@@ -112,8 +113,8 @@
     }
 
     .home_btn {
-        width: 70%;
-        margin: 2rem auto;
+        width: 50%;
+        margin: 1rem 8rem;
     }
 
     .home_btn a {

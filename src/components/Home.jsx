@@ -4,6 +4,7 @@ import Metrics from './Metrics.jsx'
 import Footer from './Footer.jsx'
 import Gallery from './Gallery.jsx'
 import FAQ from './FAQ.jsx'
+import Conclusion from './Conclusion.jsx'
 
 function Home() {
   const [faqs, setfaqs] = useState([
@@ -55,6 +56,7 @@ function Home() {
       <button className='home_btn'><a target='_blank' href="https://calendly.com/mediagrowthhub/30min">AGENDÁ UNA LLAMADA AHORA!</a></button> 
       <Gallery/>
       <Metrics/>
+      <Conclusion/>
       <div className="faqs">
         <h2 className='faqs-title'>Preguntas Frecuentes</h2>
         {faqs.map((faq, i) => (
