@@ -7,6 +7,7 @@ import metric4 from "../assets/metric4.jpg"
 function Metrics() {
   return (
     <div className='container'>
+        <h2 className="metrics_title">NUESTRAS PRUEBAS</h2>
       <div className='metrics_container'>
         <div className='results1_container'>
           <h2 className='title_mediagrowth'><span className='red-text'>SIN </span>MediaGrowth</h2>

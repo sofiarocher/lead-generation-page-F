@@ -5,7 +5,7 @@
 
 .conc_container {
     width: 900px;
-    text-align: start;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,6 +53,14 @@
 .text-purple {
     color: #9600FF;
     font-weight: 800;
+}
+
+li {
+    list-style-type: none;
+}
+
+.number {
+    font-weight: 900;
 }
 
 @media (max-width: 768px) {

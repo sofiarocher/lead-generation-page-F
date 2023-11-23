@@ -5,6 +5,7 @@ import Footer from './Footer.jsx'
 import Gallery from './Gallery.jsx'
 import FAQ from './FAQ.jsx'
 import Conclusion from './Conclusion.jsx'
+import Servicio from './Servicio.jsx'
 
 function Home() {
   const [faqs, setfaqs] = useState([
@@ -55,6 +56,7 @@ function Home() {
      </div>
       <button className='home_btn'><a target='_blank' href="https://calendly.com/mediagrowthhub/30min">AGENDÁ UNA LLAMADA AHORA!</a></button> 
       <Gallery/>
+      <Servicio/>
       <Metrics/>
       <Conclusion/>
       <div className="faqs">

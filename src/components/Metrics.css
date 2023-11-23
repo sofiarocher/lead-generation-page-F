@@ -23,6 +23,12 @@
     font-weight: 700;
 }
 
+.metrics_title {
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+}
+
 .container {
     background-color: #000;
 }
@@ -68,7 +74,7 @@
     }
 
     .title_mediagrowth {
-        font-size: 28px;
+        font-size: 24px;
     }
     
     .metrics_container {
@@ -79,7 +85,11 @@
 
     .results1_container,
     .results2_container {
-        padding-top: 6rem;
+        padding-top: 2rem;
+    }
+
+    .metrics_title {
+        font-size: 24px;
     }
 }
 
@@ -88,4 +98,11 @@
         font-size: 16px;
     }
 
+    .metrics_title {
+        font-size: 16px;
+    }
+    
+    .results1_container {
+        padding-top: 16px;
+     }
 }
