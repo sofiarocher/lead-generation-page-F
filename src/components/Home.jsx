@@ -11,15 +11,15 @@ function Home() {
     {
       question: '¿Cuánto tiempo lleva activar esto?',
       answer: 'En 7 días como MÁXIMO estaremos en condiciones de iniciar con la acción.',
-      open: true
+      open: false
     },
     {
-      question: '¿Funciona para mi si mi nicho de mercado es muy específico?',
+      question: '¿Funciona para mí si mi nicho de mercado es muy específico?',
       answer: 'Con seguridad, ya que lo primero que hacen nuestros profesionales es estudiar y analizar a fondo tu nicho, para entender de la mejor manera qué es lo que está generando los resultados que deseamos.',
       open: false
     },
     {
-      question: '¿Funciona para mi si no tengo redes sociales o mis redes sociales tienen poca presencia?',
+      question: '¿Funciona para mí si no tengo redes sociales o mis redes sociales tienen poca presencia?',
       answer: 'Justamente nos dedicamos a potenciar las marcas personales y redes sociales de nuestros clientes ya sea que tengan cuentas con pocos seguidores o más destacadas y quieran ir al siguiente nivel.',
       open: false
     },
