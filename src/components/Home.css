@@ -18,8 +18,9 @@
 .title_desc {
     font-size: 2rem;
     text-align: center;
-    width: 900px;
+    max-width: 900px;
     padding-bottom: 56px;
+    height: auto;
 }
 
 .title_p {
@@ -44,6 +45,10 @@
     color: #fff;
     font-weight: 700;
     font-size: 1rem;
+}
+
+iframe {
+    max-width: 800px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -74,8 +79,8 @@
     }
 
     iframe {
-        width: 380px;
-        height: 300px;
+        max-width: 380px;
+        max-height: 300px;
     }
 
     .home_btn {
@@ -95,7 +100,7 @@
 
     .title_desc {
         font-size: 16px;
-        width: 300px;
+        max-width: 300px;
     }
     
     .title_p {
@@ -103,7 +108,7 @@
     }
 
     iframe {
-        width: 270px;
+        max-width: 270px;
         height: 250px;
     }
 
@@ -112,7 +117,7 @@
     }
 
     .home_btn {
-        width: 60%;
+        max-width: 60%;
         padding: 8px;
     }
 

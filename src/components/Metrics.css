@@ -1,11 +1,11 @@
 .img_1{
-    width: 479px;
+    max-width: 479px;
     height: 395px;
     margin-top: 3rem;
 }
 
 .img_2{
-    width: 469px;
+    max-width: 469px;
     height: 422px;
     margin-top: 6rem;
 }
@@ -40,7 +40,7 @@
     align-items: center; 
     color:#fff;
     padding-bottom: 30px;
-    width: 80rem;
+    max-width: 1100px;
     margin: auto;
 }
 
@@ -91,6 +91,7 @@
     .metrics_title {
         font-size: 24px;
     }
+
 }
 
 @media screen and (max-width: 685px) {

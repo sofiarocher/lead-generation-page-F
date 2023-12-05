@@ -1,4 +1,4 @@
-li {
+.serv_list li {
     list-style-type: disc;
 }
 
@@ -20,12 +20,21 @@ li {
 .serv_title {
     font-size: 28px;
     padding-bottom: 24px;
+    text-shadow: 0 0 5px #9600FF, 0 0 15px #9600FF, 0 0 50px #9600FF, 0 0 50px #9600FF;
 }
 
 .serv_p {
     padding-bottom: 12px;
     font-size: 20px;
     text-align: center;
+}
+
+.serv_img {
+    max-width: 700px;
+    max-height: 450px;
+    border-radius: 50px;
+    margin: 24px 12px;
+    box-shadow: 2px 2px 20px 2px #F00;
 }
 
 .serv_list {
@@ -93,6 +102,10 @@ li {
     .serv_btn {
         width: 80%;
     }
+
+    .serv_img {
+        max-width: 400px;
+    }
 }
 
 @media only screen and (max-width: 675px) {
@@ -126,5 +139,9 @@ li {
 
     .serv_btn a {
         font-size: 12px;
+    }
+
+    .serv_img {
+        max-width: 300px;
     }
 }

@@ -1,4 +1,5 @@
 import "./Servicio.css"
+import lucid from "../assets/lucid.png"
 
 function Servicio() {
   return (
@@ -12,8 +13,8 @@ function Servicio() {
                 <br /><br />
                 De esta manera te generamos un nuevo activo de venta: <span className="serv-span">tu marca personal.</span>
             </p>
-            <img src="" alt="" className="serv_img"/>
             <p className="serv_p">Trabajaremos de manera personalizada con tu negocio y te entregaremos la estructura completa para convertirte en un referente en redes sociales.</p>
+            <img src={lucid} alt="" className="serv_img"/>
             <ul className="serv_list">
                 <p className="serv_list-title">Trabajamos con expertos en:</p>
                 <li className="serv_li"><span className="serv-span">Análisis de datos: </span> Se encargará de realizar un análisis de mercado y competencia para tu nicho específico y obtener la información precisa de lo que está generando resultados.</li>

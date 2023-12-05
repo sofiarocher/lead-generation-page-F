@@ -3,7 +3,8 @@
     color: #fff;
     display: flex;
     align-items: center;
-    padding: 2rem 0 2rem 25rem;
+    justify-content: space-around;
+    padding: 3rem;
     font-weight: 600;
 }
 

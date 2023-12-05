@@ -8,7 +8,7 @@ function Navbar() {
           <img className="nav_img" src= {logo} />
           <p className='nav_p'>MediaGrowth</p>
         </div>
-        <button className='nav_btn'><a target='_blank' href="https://calendly.com/mediagrowthhub/30min">Agendá una Call</a></button>
+        <button className='nav_btn'><a target='_blank'>ENG/ESP</a></button>
     </div>
   )
 }

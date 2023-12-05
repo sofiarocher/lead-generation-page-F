@@ -1,9 +1,12 @@
 .gallery_container {
     background-color: #fff;
-    height: 250px;
+    height: auto;
     text-align: center;
+    padding: 24px;
 }
 
-.gallery_container h2 {
-    padding-top: 100px;
+.gallery_title {
+    max-width: 800px;
+    margin: auto;
+    font-size: 28px;
 }
