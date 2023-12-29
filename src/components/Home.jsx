@@ -12,13 +12,13 @@ import { Fade, Zoom } from "react-awesome-reveal";
 function Home() {
   const [faqs, setfaqs] = useState([
     {
-      question: '¿Cuánto tiempo lleva activar esto?',
+      question: '¿Cuánto tiempo lleva activar el servicio?',
       answer: 'En 7 días como MÁXIMO estaremos en condiciones de iniciar con la acción.',
       open: false
     },
     {
       question: '¿Funciona para mí si mi nicho de mercado es muy específico?',
-      answer: 'Con seguridad, ya que lo primero que hacen nuestros profesionales es estudiar y analizar a fondo tu nicho, para entender de la mejor manera qué es lo que está generando los resultados que deseamos.',
+      answer: 'Por supuesto, ya que lo primero que hacen nuestros profesionales es estudiar y analizar a fondo tu nicho, para entender de la mejor manera qué es lo que está generando los resultados que deseamos.',
       open: false
     },
     {
