@@ -1,0 +1,77 @@
+{
+    "serv" : {
+        "title" : "¿CÓMO NOS MANEJAMOS?",
+        "p": "Dentro de",
+        "span":"Media Growth Hub",
+        "p2":"nos encargamos de establecer los 5 pilares por los cuales hacemos que tu marca personal crezca.",
+        "p3":"Instalaremos nuestro sistema de adquisición de clientes y ventas en tu negocio, a través de contenido orgánico y estrategias personalizadas de prospección y conversión.",
+        "p4":"De esta manera te generamos un nuevo activo de venta:",
+        "span2":"tu marca personal.",
+        "p5":"Trabajaremos de manera personalizada con tu negocio y te entregaremos la estructura completa para convertirte en un referente en redes sociales.",
+        "list-title": "Trabajamos con expertos en:",
+        "li1":"Análisis de datos:",
+        "li2":"Edición de video:",
+        "li3":"Diseño gráfico:",
+        "li4":"Copywriting:",
+        "li5":"Ventas:",
+        "li6":"Marketing:",
+        "ul1":"Se encargará de realizar un análisis de mercado y competencia para tu nicho específico y obtener la información precisa de lo que está generando resultados.",
+        "ul2":"Se encargarán de editar tu contenido de la manera mas profesional y atractiva para lograr esa diferenciación que buscamos.",
+        "ul3":"Se encargarán de realizar las portadas, de manera que llamen la atención de la audiencia y hagan click para ver tu reel.",
+        "ul4":" Se encargarán de realizar los guiones más cautivantes con formato AIDA (Atención, interés, deseo y acción). Una primera frase que llame la atención, una estructura que genere interés y deseo en nuestra audiencia y finalmente un llamado a la acción, ya sea para que interactúen con nuestro contenido o redirigirlos a un embudo de ventas.",
+        "ul5":" Se encargarán de capacitar a tu equipo para aumentar la tasa de conversión de clientes lo máximo posible.",
+        "ul6":" Se encargarán de estructurar una estrategia para tu negocio de manera personalizada para obtener los resultados que deseas.",
+        "p6":"Entendemos la importancia de delegar una estructura tan demandante de tiempo para los dueños de negocio como nosotros.",
+        "p7":"De esta manera ",
+        "span3":"solo necesitaras dedicarle como máximo 2hs por semana,",
+        "p8":"nosotros nos encargamos del resto!",
+        "button":"AGENDÁ UNA LLAMADA AHORA!"
+    },
+
+    "metrics" : {
+        "title" : "NUESTRAS PRUEBAS",
+        "sin": "SIN",
+        "mediagrowth": "MediaGrowth",
+        "con": "CON"
+    },
+
+    "home" : {
+        "title": "Este video de 5 minutos explica cómo ayudamos a empresas y creadores de contenido a destacarse en las redes sociales y a construir audiencia logrando la monetización deseada.",
+        "button":"AGENDÁ UNA LLAMADA AHORA!",
+        "faq-title":"Preguntas Frecuentes",
+        "faq1":"¿Cuánto tiempo lleva activar esto?",
+        "ans1":"En 7 días como MÁXIMO estaremos en condiciones de iniciar con la acción.",
+        "faq2":"¿Funciona para mí si mi nicho de mercado es muy específico?",
+        "ans2":"Con seguridad, ya que lo primero que hacen nuestros profesionales es estudiar y analizar a fondo tu nicho, para entender de la mejor manera qué es lo que está generando los resultados que deseamos.",
+        "faq3":"¿Funciona para mí si no tengo redes sociales o mis redes sociales tienen poca presencia?",
+        "ans3":"Justamente nos dedicamos a potenciar las marcas personales y redes sociales de nuestros clientes ya sea que tengan cuentas con pocos seguidores o más destacadas y quieran ir al siguiente nivel.",
+        "faq4":"¿Qué riesgos corro entrando al programa?",
+        "ans4":"El riesgo que corres es NO entrar al programa, ya que seguirás de la misma manera, obteniendo los mismos resultados que tienes ahora. Si quieres los resultados que deseas, te invito a que agendes una llamada gratuita."
+    },
+
+    "gallery" : {
+        "title": "De esta forma le generamos una facturación total de más de ",
+        "span":"100.000 USD",
+        "title2":"a nuestros clientes",
+        "span2":"en los últimos 90 días",
+        "title3":"mediante nuestra estrategia de contenido."
+    },
+
+    "footer" : {
+        "dev": "Desarrollado por",
+        "copy": "2024 &copy; Todos los derechos reservados por Media Growth Hub." 
+    },
+
+    "conc" : {
+        "title":"En conclusión, tenés dos opciones:",
+        "li1":" No tomar acción, y",
+        "span1":"seguir en el mismo camino",
+        "li1.0":"por el cual venís desde que empezaste. Seguir estando atado a lo que no te deja crecer, y no escalar tu agencia/negocio.",
+        "li2":"Tener una llamada con nosotros, ver si realmente podemos ayudarte y brindarte las herramientas para aplicar esto en tu agencia/negocio, y ",
+        "span2":"hacerlo funcionar.",
+        "p1":"Pensá que decidís no tomar acción, seguir intentando construir y aplicar sistemas de los cuales no tenés experiencia, ¿realmente creés que podría funcionar de esta manera?",
+        "p2":"Ahora, si decidís ir por la segunda opción, conocer realmente de alguien que sepa y pueda brindarte el camino correcto a seguir, déjame decirte que es la decisión más inteligente. Saber y conocer de personas que están donde vos querés estar...",
+        "button":"AGENDÁ UNA LLAMADA AHORA!"
+
+    }
+}

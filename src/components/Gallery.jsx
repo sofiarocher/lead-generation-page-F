@@ -1,5 +1,6 @@
 import "./Gallery.css"
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Fade } from "react-awesome-reveal";
 
 // Import Swiper styles
 import 'swiper/css';
@@ -56,9 +57,13 @@ function Reels()  {
 function Gallery() {
   return (
     <div className='gallery_container'>
-      <h2 className="gallery_title">De esta forma le generamos una facturación total de más de <span className="text-purple">100.000 USD</span> a nuestros clientes <span className="text-red">en los últimos 90 días</span> mediante nuestra estrategia de contenido.</h2>
+      <Fade>
+        <h2 className="gallery_title">De esta forma le generamos una facturación total de más de <span className="text-purple">100.000 USD</span> a nuestros clientes <span className="text-red">en los últimos 90 días</span> mediante nuestra estrategia de contenido.</h2>
+      </Fade>
       <div>
-        {Reels}
+        <Fade>
+          {Reels}
+        </Fade>
       </div>
     </div>
   )

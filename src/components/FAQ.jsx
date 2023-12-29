@@ -1,4 +1,5 @@
 import "./FAQ.css"
+import { Fade } from "react-awesome-reveal"
 
 function FAQ ({faq, index, toggleFAQ}) {
 	return (
@@ -7,12 +8,14 @@ function FAQ ({faq, index, toggleFAQ}) {
 			key={index}
 			onClick={() => toggleFAQ(index)}
 		>
-			<div className="faq-question">
-				{faq.question}
-			</div>
-			<div className="faq-answer">
-				{faq.answer}
-			</div>
+			<Fade direction="left">
+				<div className="faq-question">
+					{faq.question}
+				</div>
+				<div className="faq-answer">
+					{faq.answer}
+				</div>
+			</Fade>
 		</div>
 	)
 }
