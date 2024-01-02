@@ -5,16 +5,8 @@ import "../styles/Reels.css"
 import Reel1 from "../assets/reel1.mp4"
 import Reel2 from "../assets/reel2.mp4"
 import Reel3 from "../assets/reel3.mp4"
-import Portada from "../assets/portada.png"
 
 function Reels()  {
-    const videoOptions = {
-        controlsList: 'nodownload',
-        playsInline: true,
-        muted: true, 
-        autoPlay: true,
-    };
-
     return (
         <div className="reels_container">
           <Swiper
@@ -23,6 +15,7 @@ function Reels()  {
             centeredSlides={true}
             loop={true}
             slidesPerView={1}
+            initialSlide={0}
             coverflowEffect={{
               rotate: 0,
               stretch: 0,
@@ -39,22 +32,16 @@ function Reels()  {
             className="swiper_container"
           >
             <SwiperSlide>
-                <video src={Reel1} {...videoOptions} /* poster={Portada} */ />
-                <div className='button-container'>
-                    <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/Cyw8Q42tEQH/">1.2M de vistas</a></p>
-                </div>
+                <video src={Reel1} controls playsInline loop />
+                <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/Cyw8Q42tEQH/">1.2M de vistas</a></p>
             </SwiperSlide>
             <SwiperSlide>
-              <video src={Reel2} {...videoOptions} /* poster={Portada} */ />
-              <div>
-                <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/CzSQuWatV-z/">131K de vistas</a></p>
-              </div>
+              <video src={Reel2} controls playsInline loop />
+              <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/CzSQuWatV-z/">131K de vistas</a></p>
             </SwiperSlide>
             <SwiperSlide>
-                <video src={Reel3} {...videoOptions} controls /* poster={Portada} */ />
-                <div>
-                    <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/Cwd9_dJNmdT/">340K de vistas</a></p>
-                </div>
+                <video src={Reel3} controls playsInline loop />   
+                <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/Cwd9_dJNmdT/">340K de vistas</a></p>
             </SwiperSlide>   
           </Swiper>
         </div>
