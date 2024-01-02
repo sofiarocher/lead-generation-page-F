@@ -1,16 +1,16 @@
 .nav_container {
+    background-color: #000;
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 6rem;
-    width: 99vw;
-    padding-bottom: 12px;
 }
 
 .logo_container {
     display: flex;
     align-items: center;
 }
+
 
 .nav_img {
     width: 3rem;

@@ -86,7 +86,7 @@ li {
     }
 }
 
-@media (max-width: 685px) {
+@media (max-width: 675px) {
     
     .conc_container {
         width: 280px;
