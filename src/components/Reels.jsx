@@ -32,15 +32,15 @@ function Reels()  {
             className="swiper_container"
           >
             <SwiperSlide>
-                <video src={Reel1} controls playsInline loop />
+                <video src={Reel1} controls />
                 <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/Cyw8Q42tEQH/">1.2M de vistas</a></p>
             </SwiperSlide>
             <SwiperSlide>
-              <video src={Reel2} controls playsInline loop />
+              <video src={Reel2} controls />
               <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/CzSQuWatV-z/">131K de vistas</a></p>
             </SwiperSlide>
             <SwiperSlide>
-                <video src={Reel3} controls playsInline loop />   
+                <video src={Reel3} controls />   
                 <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/Cwd9_dJNmdT/">340K de vistas</a></p>
             </SwiperSlide>   
           </Swiper>
