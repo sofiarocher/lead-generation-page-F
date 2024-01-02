@@ -6,7 +6,7 @@ function Servicio() {
   return (
     <div className="services">
         <div className="serv_container">
-            <Fade cascade damping={0.2}>
+            <Fade cascade damping={0.1}>
                 <h2 className="serv_title">¿CÓMO NOS MANEJAMOS?</h2>
                 <p className="serv_p">
                     Dentro de <span className="serv-span-two">Media Growth Hub</span> nos encargamos de establecer los 5 pilares por los cuales hacemos que tu marca personal crezca.

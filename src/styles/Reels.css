@@ -51,6 +51,10 @@
         max-width: 60%; 
         border-radius: 1rem;
     }
+
+    .reels_container video {
+      width: 100%;
+    } 
   }
 
   @media (max-width: 685px) {
