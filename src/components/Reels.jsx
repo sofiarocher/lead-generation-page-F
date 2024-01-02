@@ -8,6 +8,13 @@ import Reel3 from "../assets/reel3.mp4"
 import Portada from "../assets/portada.png"
 
 function Reels()  {
+    const videoOptions = {
+        controlsList: 'nodownload',
+        playsInline: true,
+        muted: true, 
+        autoPlay: true,
+    };
+
     return (
         <div className="reels_container">
           <Swiper
@@ -32,19 +39,19 @@ function Reels()  {
             className="swiper_container"
           >
             <SwiperSlide>
-                <video src={Reel1} controls playsInline loop poster={Portada} />
+                <video src={Reel1} {...videoOptions} /* poster={Portada} */ />
                 <div className='button-container'>
                     <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/Cyw8Q42tEQH/">1.2M de vistas</a></p>
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-              <video src={Reel2} controls playsInline loop poster={Portada} />
+              <video src={Reel2} {...videoOptions} /* poster={Portada} */ />
               <div>
                 <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/CzSQuWatV-z/">131K de vistas</a></p>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-                <video src={Reel3} controls playsInline loop poster={Portada} />
+                <video src={Reel3} {...videoOptions} controls /* poster={Portada} */ />
                 <div>
                     <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/Cwd9_dJNmdT/">340K de vistas</a></p>
                 </div>
