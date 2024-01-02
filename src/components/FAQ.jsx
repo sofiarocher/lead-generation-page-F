@@ -1,4 +1,4 @@
-import "./FAQ.css"
+import "../styles/FAQ.css"
 import { Fade } from "react-awesome-reveal"
 
 function FAQ ({faq, index, toggleFAQ}) {

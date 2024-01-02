@@ -1,4 +1,4 @@
-import "./Conclusion.css"
+import "../styles/Conclusion.css"
 import { Fade, Zoom } from "react-awesome-reveal"
 
 function Conclusion() {

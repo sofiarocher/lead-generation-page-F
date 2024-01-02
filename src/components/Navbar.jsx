@@ -1,5 +1,5 @@
-import "./Navbar.css"
-import logo from "../assets/logo.jpeg"
+import "../styles/Navbar.css"
+import logo from "../assets/logo.png"
 import { Fade } from "react-awesome-reveal";
 
 function Navbar() { 

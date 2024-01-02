@@ -1,0 +1,30 @@
+.gallery_container {
+    background-color: #fff;
+    height: auto;
+    text-align: center;
+    padding: 24px;
+}
+
+.gallery_title {
+    max-width: 800px;
+    margin: auto;
+    font-size: 28px;
+}
+
+@media (max-width: 768px) {
+    .gallery_container {
+        padding: 16px; 
+    }
+    
+    .gallery_title {
+        max-width: 450px; 
+        font-size: 22px; 
+    }
+}
+
+@media (max-width: 685px) {
+    .gallery_title {
+        max-width: 300px; 
+        font-size: 18px; 
+    }
+}

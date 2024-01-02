@@ -1,4 +1,4 @@
-import "./Servicio.css"
+import "../styles/Servicio.css"
 import lucid from "../assets/lucid.png"
 import { Fade, Zoom } from "react-awesome-reveal"
 

@@ -1,4 +1,4 @@
-import "./Metrics.css"
+import "../styles/Metrics.css"
 import metric1 from "../assets/metric1.jpg"
 import metric2 from "../assets/metric2.jpg"
 import metric3 from "../assets/metric3.jpg"
