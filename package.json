@@ -17,6 +17,7 @@
     "react-awesome-reveal": "^4.2.7",
     "react-dom": "^18.2.0",
     "react-i18next": "^13.5.0",
+    "react-player": "^2.14.1",
     "react-router-dom": "^6.18.0",
     "swiper": "^11.0.5"
   },
