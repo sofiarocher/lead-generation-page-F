@@ -95,12 +95,20 @@
 }
 
 @media screen and (max-width: 685px) {
+    .img_1 {
+        width: 60%;
+    }
+
+    .img_2 {
+        width: 60%;
+    }
+
     .title_mediagrowth {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .metrics_title {
-        font-size: 16px;
+        font-size: 20px;
     }
     
     .results1_container {

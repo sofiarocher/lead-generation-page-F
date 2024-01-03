@@ -89,20 +89,20 @@ li {
 @media (max-width: 675px) {
     
     .conc_container {
-        width: 280px;
+        width: 320px;
         text-align: center;
     }
     
     .conc_title {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     .conc_li {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .conc_p {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .conc_btn {
@@ -111,6 +111,6 @@ li {
     }
 
     .conc_btn a {
-        font-size: 10px;
+        font-size: 16px;
     }
 }

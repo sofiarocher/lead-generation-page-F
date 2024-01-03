@@ -111,24 +111,24 @@
 
 @media only screen and (max-width: 675px) {
     .serv_container {
-        width: 280px;
+        width: 320px;
     }
 
     .serv_title {
-        font-size: 18px;
+        font-size: 20px;
         padding-bottom: 12px; 
     }
 
     .serv_p {
-        font-size: 14px; 
+        font-size: 16px; 
     }
 
     .serv_list-title {
-        font-size: 14px; 
+        font-size: 16px; 
     }
 
     .serv_li {
-        font-size: 12px;
+        font-size: 14px;
         padding-bottom: 6px; 
     }
 
@@ -139,7 +139,7 @@
     }
 
     .serv_btn a {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .serv_img {
