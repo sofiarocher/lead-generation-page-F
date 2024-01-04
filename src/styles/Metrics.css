@@ -96,19 +96,19 @@
 
 @media screen and (max-width: 685px) {
     .img_1 {
-        width: 60%;
+        width: 70%;
     }
 
     .img_2 {
-        width: 60%;
+        width: 70%;
     }
 
     .title_mediagrowth {
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .metrics_title {
-        font-size: 20px;
+        font-size: 22px;
     }
     
     .results1_container {
