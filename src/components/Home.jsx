@@ -62,7 +62,7 @@ function Home() {
             </div>
             <div className="vid_container">
               <Fade>
-                <iframe width="860" height="415" src="https://www.youtube.com/embed/dvvLhlbpHtI?si=cTebLCeX9CodY383" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;"></iframe>
+                <iframe width="860" height="415" src="https://www.youtube.com/embed/dvvLhlbpHtI?si=cTebLCeX9CodY383" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;"></iframe>
               </Fade>
             </div>
         </div>
