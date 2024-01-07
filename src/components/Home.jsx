@@ -7,6 +7,8 @@ import FAQ from './FAQ.jsx'
 import Conclusion from './Conclusion.jsx'
 import Servicio from './Servicio.jsx'
 import { Fade, Zoom } from "react-awesome-reveal";
+import videoBg from "../assets/background.mp4"
+import Navbar from "./Navbar.jsx"
 
 
 function Home() {
@@ -46,25 +48,30 @@ function Home() {
 
   return (
     <div className='home_container'>
-      <div className='home_container-two'>
-        <div className='title_container'>
-          <Fade>
-            <h1 className='title_desc'>
-            Este video de 5 minutos explica cómo ayudamos a empresas y creadores de contenido a destacarse en las redes sociales y a construir audiencia logrando la monetización deseada.
-            </h1>
-          </Fade>
+        <div className="overlay"></div>
+        <video src={videoBg} autoPlay loop muted playsInline className='background'/>
+        <div className="content">
+          <Navbar />
+          <div className='home_container-two'>
+            <div className='title_container'>
+              <Fade>
+                <h1 className='title_desc'>
+                Este video de 5 minutos explica cómo ayudamos a empresas y creadores de contenido a destacarse en las redes sociales y a construir audiencia logrando la monetización deseada.
+                </h1>
+              </Fade>
+            </div>
+            <div className="vid_container">
+              <Fade>
+                <iframe width="860" height="415" src="https://www.youtube.com/embed/dvvLhlbpHtI?si=cTebLCeX9CodY383" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;"></iframe>
+              </Fade>
+            </div>
         </div>
-        <div className="vid_container">
-          <Fade>
-            <iframe width="860" height="415" src="https://www.youtube.com/embed/dvvLhlbpHtI?si=cTebLCeX9CodY383" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;"></iframe>
-          </Fade>
+              <button className='home_btn'>
+                <Zoom>
+                  <a target='_blank' rel='noreferrer' href="https://calendly.com/mediagrowthhub/30min">AGENDÁ UNA LLAMADA AHORA!</a>    
+                </Zoom>
+              </button> 
         </div>
-     </div>
-            <button className='home_btn'>
-              <Zoom>
-                <a target='_blank' rel='noreferrer' href="https://calendly.com/mediagrowthhub/30min">AGENDÁ UNA LLAMADA AHORA!</a>    
-              </Zoom>
-            </button> 
       <Gallery/>
       <Servicio/>
       <Metrics/>
