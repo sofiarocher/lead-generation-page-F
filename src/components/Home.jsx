@@ -9,28 +9,31 @@ import Servicio from './Servicio.jsx'
 import { Fade, Zoom } from "react-awesome-reveal";
 import videoBg from "../assets/background.mp4"
 import Navbar from "./Navbar.jsx"
+import { useTranslation } from 'react-i18next'
 
 
 function Home() {
+  const { t } = useTranslation();
+
   const [faqs, setfaqs] = useState([
     {
-      question: '¿Cuánto tiempo lleva activar el servicio?',
-      answer: 'En 7 días como MÁXIMO estaremos en condiciones de iniciar con la acción.',
+      question: t("home.faq1"),
+      answer: t("home.ans1"),
       open: false
     },
     {
-      question: '¿Funciona para mí si mi nicho de mercado es muy específico?',
-      answer: 'Por supuesto, ya que lo primero que hacen nuestros profesionales es estudiar y analizar a fondo tu nicho, para entender de la mejor manera qué es lo que está generando los resultados que deseamos.',
+      question: t("home.faq2"),
+      answer: t("home.ans2"),
       open: false
     },
     {
-      question: '¿Funciona para mí si no tengo redes sociales o mis redes sociales tienen poca presencia?',
-      answer: 'Justamente nos dedicamos a potenciar las marcas personales y redes sociales de nuestros clientes ya sea que tengan cuentas con pocos seguidores o más destacadas y quieran ir al siguiente nivel.',
+      question: t("home.faq3"),
+      answer: t("home.ans3"),
       open: false
     },
     {
-      question: '¿Qué riesgos corro entrando al programa?',
-      answer: "El riesgo que corres es NO entrar al programa, ya que seguirás de la misma manera, obteniendo los mismos resultados que tienes ahora. Si quieres los resultados que deseas, te invito a que agendes una llamada gratuita.",      
+      question: t("home.faq4"),
+      answer: t("home.ans4"),      
       open: false
     }
   ]);
@@ -46,6 +49,7 @@ function Home() {
     }))
   }
 
+
   return (
     <div className='home_container'>
         <div className="overlay"></div>
@@ -56,7 +60,7 @@ function Home() {
             <div className='title_container'>
               <Fade>
                 <h1 className='title_desc'>
-                Este video de 5 minutos explica cómo ayudamos a empresas y creadores de contenido a destacarse en las redes sociales y a construir audiencia logrando la monetización deseada.
+                  {t("home.title")}
                 </h1>
               </Fade>
             </div>
@@ -68,7 +72,7 @@ function Home() {
         </div>
               <button className='home_btn'>
                 <Zoom>
-                  <a target='_blank' rel='noreferrer' href="https://calendly.com/mediagrowthhub/30min">AGENDÁ UNA LLAMADA AHORA!</a>    
+                  <a target='_blank' rel='noreferrer' href="https://calendly.com/mediagrowthhub/30min">{t("home.button")}</a>    
                 </Zoom>
               </button> 
         </div>
@@ -78,9 +82,9 @@ function Home() {
       <Conclusion/>
         <Fade>
           <div className="faqs">
-            <h2 className='faqs-title'>Preguntas Frecuentes</h2>
+            <h2 className='faqs-title'>{t("home.faq-title")}</h2>
             {faqs.map((faq, i) => (
-              <FAQ faq={faq} index={i} toggleFAQ={toggleFAQ}/>
+              <FAQ key={i} faq={faq} index={i} toggleFAQ={toggleFAQ}/>
             ))}
           </div>
         </Fade>

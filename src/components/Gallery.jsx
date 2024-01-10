@@ -1,13 +1,17 @@
 import "../styles/Gallery.css"
 import { Fade } from "react-awesome-reveal";
 import Reels from "./Reels";
+import { useTranslation } from "react-i18next";
 
 
 function Gallery() {
+
+  const { t } = useTranslation();
+
   return (
     <div className='gallery_container'>
       <Fade>
-        <h2 className="gallery_title">De esta forma le generamos una facturación total de más de <span className="text-purple">100.000 USD</span> a nuestros clientes <span className="text-red">en los últimos 90 días</span> mediante nuestra estrategia de contenido.</h2>
+        <h2 className="gallery_title">{t("gallery.title")}<span className="text-purple">{t("gallery.span")}</span> {t("gallery.title2")} <span className="text-red">{t("gallery.span2")}</span> {t("gallery.title3")}</h2>
       </Fade>
       <Reels/>
     </div>

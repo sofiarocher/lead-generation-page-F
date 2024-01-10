@@ -25,7 +25,6 @@
 	position: relative;
 	font-size: 20px;
 	padding-right: 80px;
-
 	transition: all 0.4s ease;
 }
 
@@ -37,13 +36,10 @@
 	transform: translateY(-50%);
 	width: 30px;
 	height: 30px;
-
 	background-image: url("../assets/arrow-down-mint.svg");
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
-
-
 	transition: all 0.4s ease-out;
 }
 

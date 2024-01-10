@@ -59,19 +59,19 @@
 
     "footer" : {
         "dev": "Desarrollado por",
-        "copy": "2024 &copy; Todos los derechos reservados por Media Growth Hub." 
+        "copy": "Todos los derechos reservados por Media Growth Hub." 
     },
 
     "conc" : {
         "title":"En conclusión, tenés dos opciones:",
         "li1":" No tomar acción, y",
         "span1":"seguir en el mismo camino",
-        "li1.0":"por el cual venís desde que empezaste. Seguir estando atado a lo que no te deja crecer, y no escalar tu agencia/negocio.",
+        "li11":"por el cual venís desde que empezaste. Seguir estando atado a lo que no te deja crecer, y no escalar tu agencia/negocio.",
         "li2":"Tener una llamada con nosotros, ver si realmente podemos ayudarte y brindarte las herramientas para aplicar esto en tu agencia/negocio, y ",
         "span2":"hacerlo funcionar.",
         "p1":"Pensá que decidís no tomar acción, seguir intentando construir y aplicar sistemas de los cuales no tenés experiencia, ¿realmente creés que podría funcionar de esta manera?",
         "p2":"Ahora, si decidís ir por la segunda opción, conocer realmente de alguien que sepa y pueda brindarte el camino correcto a seguir, déjame decirte que es la decisión más inteligente. Saber y conocer de personas que están donde vos querés estar...",
-        "button":"AGENDÁ UNA LLAMADA AHORA!"
+        "button":"QUIERO ESCALAR MI AGENCIA YA!"
 
     }
 }
