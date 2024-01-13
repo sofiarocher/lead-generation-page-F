@@ -5,8 +5,10 @@ import "../styles/Reels.css"
 import Reel1 from "../assets/reel1.mp4"
 import Reel2 from "../assets/reel2.mp4"
 import Reel3 from "../assets/reel3.mp4"
+import { useTranslation } from 'react-i18next';
 
 function Reels()  {
+  const { t } = useTranslation();
     return (
         <div className="reels_container">
           <Swiper
@@ -35,19 +37,19 @@ function Reels()  {
                 <video controls autoPlay muted loop>
                   <source src={Reel1} />
                 </video>
-                <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/Cyw8Q42tEQH/">1.2M de vistas</a></p>
+                <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/Cyw8Q42tEQH/">{t("views1")} </a></p>
             </SwiperSlide>
             <SwiperSlide>
                   <video controls autoPlay muted loop>
                   <source src={Reel2} />
                 </video>
-              <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/CzSQuWatV-z/">131K de vistas</a></p>
+              <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/CzSQuWatV-z/">{t("views2")}</a></p>
             </SwiperSlide>
             <SwiperSlide>
                 <video controls autoPlay muted loop>
                   <source src={Reel3} />
                 </video>
-                <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/Cwd9_dJNmdT/">340K de vistas</a></p>
+                <p className='views-p'><a target='_blank' rel='noreferrer' href="https://www.instagram.com/reel/Cwd9_dJNmdT/">{t("views3")}</a></p>
             </SwiperSlide>   
           </Swiper>
         </div>

@@ -56,7 +56,7 @@ function Home() {
     return (
         <div className='home_container'>
             <div className="overlay"></div>
-            <video src={videoBg} autoPlay loop muted play className='background' preload="auto"/>
+            <video src={videoBg} autoPlay loop muted playsInline className='background' preload="auto"/>
             <div className="content">
                 <Navbar />
                 <div className='home_container-two'>
