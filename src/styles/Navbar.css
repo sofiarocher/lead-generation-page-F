@@ -26,17 +26,17 @@
 }
 
 .nav_btn {
-    padding: 0.7rem;
-    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    padding: 4px 12px;
+    border-radius: 10px;
     border: none;
-    background: linear-gradient(90deg, #FF002A 0.3%, #9600FF 100%);  
+    background: linear-gradient(90deg, #FF002A 0.3%, #9600FF 100%);
+    cursor: pointer;  
 }
 
-.nav_btn a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 400;
-    font-size: 1rem;
+.btn-p {
+    margin-left: 8px;
 }
 
 @media (max-width: 1200px) {
@@ -60,10 +60,6 @@
         margin-left: 0; 
         font-size: 20px;
     }
-
-    .nav_btn a {
-        font-size: 14px
-    }
 }
 
 @media only screen and (max-width: 685px) {
@@ -76,9 +72,5 @@
 
     .nav_p {
         display: none;
-    }
-
-    .nav_btn {
-        padding: 0.5rem;
     }
 }
