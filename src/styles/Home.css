@@ -84,6 +84,16 @@ iframe {
     max-width: 800px;
 }
 
+@media (max-width: 1200px) {
+    .background {
+        height: 110vh;
+    }
+
+    .overlay {
+        height: 110vh;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .background {
         height: 100vh;
