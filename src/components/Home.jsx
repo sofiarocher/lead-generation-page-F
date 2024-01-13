@@ -1,4 +1,4 @@
-import {  useState } from 'react'
+import { useEffect, useState } from 'react'
 import "../styles/Home.css"
 import Metrics from './Metrics.jsx'
 import Footer from './Footer.jsx'
@@ -12,30 +12,35 @@ import Navbar from "./Navbar.jsx"
 import { useTranslation } from 'react-i18next'
 
 function Home() {
-  const { t } = useTranslation();
+    const { t } = useTranslation();
 
-  const [faqs, setfaqs] = useState([
-    {
-      question: t("home.faq1"),
-      answer: t("home.ans1"),
-      open: false
-    },
-    {
-      question: t("home.faq2"),
-      answer: t("home.ans2"),
-      open: false
-    },
-    {
-      question: t("home.faq3"),
-      answer: t("home.ans3"),
-      open: false
-    },
-    {
-      question: t("home.faq4"),
-      answer: t("home.ans4"),      
-      open: false
-    }
-  ]);
+    const [faqs, setfaqs] = useState([]);
+
+    useEffect(() => {
+        const faqsData = [
+            {
+                question: t("home.faq1"),
+                answer: t("home.ans1"),
+                open: false
+            },
+            {
+                question: t("home.faq2"),
+                answer: t("home.ans2"),
+                open: false
+            },
+            {
+                question: t("home.faq3"),
+                answer: t("home.ans3"),
+                open: false
+            },
+            {
+                question: t("home.faq4"),
+                answer: t("home.ans4"),
+                open: false
+            }
+        ];
+        setfaqs(faqsData);
+    }, [t]);
 
     const toggleFAQ = index => {
         setfaqs(faqs.map((faq, i) => {
